@@ -216,7 +216,6 @@ public class Card{
         cards.add(new Card("King", 10));
         cards.add(new Card("Ace", 1));
     }
-
     public static Card getRandomCard(){
         Random randomCard=new Random();
         int random=randomCard.nextInt(cards.size());
